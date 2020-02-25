@@ -40,7 +40,7 @@ public class Main {
         a1.nombre="Diana";
         temp.nombre="Javier";
         a2.nombre="Eric";
-        
+
 
     }
 }
