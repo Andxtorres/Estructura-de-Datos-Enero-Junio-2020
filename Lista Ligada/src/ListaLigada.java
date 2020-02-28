@@ -148,4 +148,19 @@ public class ListaLigada<T> {
 
         }
     }
+
+
+    public void sustituirEnPos(int index, T elemento){
+        if(estaVacia())
+            System.out.println("Nada que sustituir");
+        else{
+            try {
+                Nodo<T> nodo=obtenerElNodoEnLaPos(index);
+                nodo.setElemento(elemento);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+        }
+    }
 }

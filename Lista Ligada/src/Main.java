@@ -15,5 +15,14 @@ public class Main {
         listaLigada.insertarAlUltimo(50);
         listaLigada.imprimeLista();
         System.out.println("El elemento en la pos[2] es: "+listaLigada.obtenerElElementoEnLaPos(2));
+
+        ListaLigada<Alumno> listaAlumnos= new ListaLigada<>();
+        Alumno a= new Alumno("A01211914","Andrés Torres",100);
+        Alumno a1= new Alumno("A01657103","Daniel Bakas",68);
+        Alumno a2= new Alumno("A01657023","Diana",95);
+        listaAlumnos.insertarAlInicio(a);
+        listaAlumnos.insertarAlUltimo(a1);
+        listaAlumnos.insertarAlUltimo(a2);
+        listaAlumnos.imprimeLista();
     }
 }
