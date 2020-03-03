@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e59ff667-e2e1-46b0-ad9d-8efcff1ee1d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Busquedas/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Busquedas/src/Alumno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Busquedas/src/Busqueda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Busquedas/src/ListaLigada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Busquedas/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Busquedas/src/Nodo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pilas y Colas/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pilas y Colas/src/Pila.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pilas y Colas/src/PilaSinLista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Busquedas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Busquedas/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +19,11 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="7" />
-          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -110,10 +107,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="49" />
-    <option name="width" value="1280" />
-    <option name="height" value="964" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="y" value="23" />
+    <option name="width" value="1024" />
+    <option name="height" value="712" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -121,7 +118,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,7 +136,7 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -187,10 +184,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="49" width="1280" height="964" extended-state="0" />
+    <frame x="0" y="23" width="1024" height="712" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20274636" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20672098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
