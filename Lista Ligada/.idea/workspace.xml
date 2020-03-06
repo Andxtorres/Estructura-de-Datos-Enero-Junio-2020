@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e59ff667-e2e1-46b0-ad9d-8efcff1ee1d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Pilas y Colas/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pilas y Colas/src/Pila.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pilas y Colas/src/PilaSinLista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Busquedas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Busquedas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pilas y Colas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pilas y Colas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pilas y Colas/src/PilaSinLista.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pilas y Colas/src/PilaSinLista.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +16,7 @@
     <session id="-338564449">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
@@ -107,8 +105,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="418" />
     <option name="width" value="1024" />
     <option name="height" value="712" />
   </component>
@@ -184,7 +182,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1024" height="712" extended-state="1" />
+    <frame x="0" y="418" width="1024" height="712" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20672098" />
