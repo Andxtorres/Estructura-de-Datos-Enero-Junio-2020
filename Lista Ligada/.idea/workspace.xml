@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e59ff667-e2e1-46b0-ad9d-8efcff1ee1d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Ordenamientos/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ordenamientos/src/ListaLigada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ordenamientos/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ordenamientos/src/Nodo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ordenamientos/src/Ordenamiento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Solucion Examen Parte Practica/src/Busqueda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Solucion Examen Parte Practica/src/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Solucion Examen Parte Practica/src/ColaAtencion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Solucion Examen Parte Practica/src/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Solucion Examen Parte Practica/src/ListaLigada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Solucion Examen Parte Practica/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Solucion Examen Parte Practica/src/Nodo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Solucion Examen/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Solucion Examen/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Solucion Examen/src/Pelota.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pilas y Colas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pilas y Colas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ordenamientos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ordenamientos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ordenamientos/out/production/Ordenamientos/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ordenamientos/out/production/Ordenamientos/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ordenamientos/out/production/Ordenamientos/Ordenamiento.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ordenamientos/out/production/Ordenamientos/Ordenamiento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ordenamientos/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ordenamientos/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ordenamientos/src/Ordenamiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ordenamientos/src/Ordenamiento.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
