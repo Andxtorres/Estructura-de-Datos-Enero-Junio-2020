@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e59ff667-e2e1-46b0-ad9d-8efcff1ee1d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../QuickSort/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuickSort/src/ListaLigada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuickSort/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuickSort/src/Nodo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuickSort/src/Quicksort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Ordenamientos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ordenamientos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ordenamientos/out/production/Ordenamientos/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ordenamientos/out/production/Ordenamientos/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ordenamientos/out/production/Ordenamientos/Ordenamiento.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ordenamientos/out/production/Ordenamientos/Ordenamiento.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ordenamientos/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ordenamientos/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ordenamientos/src/Ordenamiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ordenamientos/src/Ordenamiento.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,13 +21,13 @@
     <session id="-338564449">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
-          <entry key="project.open.time.0" value="8" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.5" value="1" />
+          <entry key="project.closed" value="16" />
+          <entry key="project.open.time.0" value="10" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -112,7 +114,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="1140" />
+    <option name="height" value="1110" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -137,8 +139,8 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -186,10 +188,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1140" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1920" height="1110" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2172524" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2257721" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
