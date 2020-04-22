@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="360cef12-eb28-43f6-a3a7-9251af2a7f9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../MergeSort/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MergeSort/src/ListaLigada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MergeSort/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MergeSort/src/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MergeSort/src/Nodo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ListaLigada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Nodo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Quicksort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lista Ligada/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista Ligada/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ordenamientos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ordenamientos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MergeSort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MergeSort/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +15,7 @@
     <session id="1119434071">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.8" value="1" />
