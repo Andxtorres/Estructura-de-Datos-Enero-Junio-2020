@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3befb86-ed34-46d6-849b-1d3a67d0ca73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../EjemploFx/src/sample/Nodo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EjemploFx/src/ui/NodoUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjemploFx/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EjemploFx/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +15,7 @@
     <session id="1486338396">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.9" value="1" />

@@ -9,19 +9,22 @@ public class Quicksort<T extends Comparable<T>> {
 
     private void quickSortRec(ListaLigada<T> lista,int izquierda, int derecha){
 
-        int pivote= (izquierda+derecha)/2;
+        int pivote=(izquierda+derecha)/2;
         int i=izquierda;
         int j=derecha;
+        T valorPivote=lista.obtenerElElementoEnLaPos(pivote);
         while(i<=j){
-            while(lista.obtenerElElementoEnLaPos(i).compareTo(lista.obtenerElElementoEnLaPos(pivote))<0){
+
+            while(lista.obtenerElElementoEnLaPos(i).compareTo(valorPivote)<0){
                 i++;
             }
-            while(lista.obtenerElElementoEnLaPos(j).compareTo(lista.obtenerElElementoEnLaPos(pivote))>0){
+            while(lista.obtenerElElementoEnLaPos(j).compareTo(valorPivote)>0){
                 j--;
             }
             if(i<=j){
                 if(i!=j){
                     lista.intercambia(i,j);
+
                 }
                 i++;
                 j--;

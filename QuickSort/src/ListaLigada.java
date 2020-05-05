@@ -164,6 +164,28 @@ public class ListaLigada<T> {
         }
     }
 
+    public void imprimeLista(int index1, int index2){
+        try {
+            if(obtenerElNodoEnLaPos(index1)==null) {
+                System.out.println("Esta lista esta vacía");
+            }else{
+                Nodo<T> temp= obtenerElNodoEnLaPos(index1);
+                System.out.print("[");
+                int iteraciones=index2-index1;
+                while(iteraciones>=0){
+                    System.out.print(temp.getElemento()+", ");
+                    temp=temp.getSiguiente();
+                    iteraciones--;
+                }
+                System.out.print("]");
+                System.out.println();
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+
     public void intercambia(int indiceUno,int indiceDos){
         try {
             Nodo<T> nodo1= obtenerElNodoEnLaPos(indiceUno);
