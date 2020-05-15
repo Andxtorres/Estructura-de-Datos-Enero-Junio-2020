@@ -12,7 +12,7 @@ public class Main {
         lista.insertarAlUltimo("B");
         lista.insertarAlUltimo("N");
         lista.insertarAlUltimo("E");
-        lista.insertarAlUltimo("M");
+        lista.insertarAlUltimo("E");
         lista.insertarAlUltimo("I");
 
 

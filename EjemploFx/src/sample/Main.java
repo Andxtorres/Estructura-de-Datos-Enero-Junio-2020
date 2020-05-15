@@ -3,7 +3,6 @@ package sample;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.layout.Pane;
-import javafx.scene.shape.Line;
 import javafx.stage.Stage;
 import ui.NodoUI;
 
@@ -18,12 +17,16 @@ public class Main extends Application {
         gp.getChildren().add(nodoUi);
         Nodo<Integer> nodo2= new Nodo<>(2);
         NodoUI<Integer> nodoUi2=new NodoUI<>(100,100,nodo2);
-        Line line= new Line(50,50,100,100);
-        gp.getChildren().add(line);
+        Arista a= new Arista(nodoUi.getC(),nodoUi2.getC());
+        gp.getChildren().add(a);
         gp.getChildren().add(nodoUi2);
         primaryStage.setScene(new Scene(gp,1000,1000));
+
         primaryStage.show();
+        nodoUi.animate(200,200,a);
     }
+
+
 
 
     public static void main(String[] args) {
