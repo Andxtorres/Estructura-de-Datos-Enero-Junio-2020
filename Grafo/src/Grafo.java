@@ -40,7 +40,7 @@ public class Grafo<T extends Comparable<T>>{
         }
     }
 
-    public void ageregarArista(Arista arista){
+    public void agregarArista(Arista arista){
         boolean encontrada=false;
         Vertice<T> v1= null;
         Vertice<T> v2=null;
