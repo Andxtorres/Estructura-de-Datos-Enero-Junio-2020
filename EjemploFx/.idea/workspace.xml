@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sample/Arista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenSegundoParcial/src/AVL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenSegundoParcial/src/ArbolPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenSegundoParcial/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenSegundoParcial/src/Nodo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenSegundoParcial/src/Poblacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AVL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AVL/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EjemploFx/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EjemploFx/sample/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EjemploFx/ui/NodoUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EjemploFx/ui/NodoUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/NodoUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/NodoUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QuickSort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QuickSort/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QuickSort/out/production/QuickSort/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../QuickSort/out/production/QuickSort/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QuickSort/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuickSort/src/Main.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,11 +58,12 @@
     <session id="-318044776">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -111,12 +98,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1143#1144#0" expanded="true" />
-                <element signature="e#1171#1172#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,12 +144,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ui/NodoUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="63" selection-end-column="30" />
+            <state relative-caret-position="450">
+              <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="63" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#572#573#0" expanded="true" />
-                <element signature="e#596#597#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -173,18 +156,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Arista.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="105">
               <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#147#148#0" expanded="true" />
-                <element signature="e#172#173#0" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#265#266#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -232,6 +207,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -260,9 +236,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -274,7 +249,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589549021756" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589549089317" />
     <property name="dynamic.classpath" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="show.migrate.to.gradle.popup" value="false" />
@@ -383,7 +358,7 @@
     <frame x="0" y="23" width="1920" height="1110" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.21565495" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.21778488" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -392,7 +367,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32907662" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32907662" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -471,6 +446,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/EjemploFx.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -503,42 +488,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/NodoUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="63" selection-end-column="30" />
+        <state relative-caret-position="450">
+          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="63" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Arista.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="105">
           <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#147#148#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1171#1172#0" expanded="true" />
           </folding>
         </state>
       </provider>
