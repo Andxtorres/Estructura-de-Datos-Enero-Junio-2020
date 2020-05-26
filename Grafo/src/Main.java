@@ -16,6 +16,8 @@ public class Main {
         grafo.agregarArista("C","F");
         grafo.agregarArista("E","G");
         grafo.agregarArista("F","G");
+        grafo.recorreEnAnchura();
+        grafo.recorreEnProfundidad();
 
 
 

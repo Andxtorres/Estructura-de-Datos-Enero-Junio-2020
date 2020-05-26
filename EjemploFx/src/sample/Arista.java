@@ -2,31 +2,32 @@ package sample;
 
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Line;
+import ui.NodoUI;
 
 public class Arista extends Line {
 
-    public Arista(Circle c1, Circle c2) {
+    public Arista(NodoUI c1, NodoUI c2) {
         super();
         this.c1 = c1;
         this.c2 = c2;
     }
 
-    private Circle c1;
-    private Circle c2;
+    private NodoUI c1;
+    private NodoUI c2;
 
-    public Circle getC1() {
+    public NodoUI getC1() {
         return c1;
     }
 
-    public void setC1(Circle c1) {
+    public void setC1(NodoUI c1) {
         this.c1 = c1;
     }
 
-    public Circle getC2() {
+    public NodoUI getC2() {
         return c2;
     }
 
-    public void setC2(Circle c2) {
+    public void setC2(NodoUI c2) {
         this.c2 = c2;
     }
 }

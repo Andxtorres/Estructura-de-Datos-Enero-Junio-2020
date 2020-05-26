@@ -1,16 +1,15 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Queue;
-import java.util.Stack;
+import java.util.*;
 
 public class Grafo<T extends Comparable<T>>{
 
     private List<Vertice<T>> vertices;
-    private Stack<T> verticesStack;
-    private Queue<T> verticesQueue;
+    private Stack<Vertice<T>> verticesStack;
+    private Queue<Vertice<T>> verticesQueue;
 
     public Grafo(){
         vertices= new ArrayList<>();
+        verticesStack= new Stack<>();
+        verticesQueue=new LinkedList<>();
     }
 
     public List<Vertice<T>> getVertices() {
@@ -34,6 +33,69 @@ public class Grafo<T extends Comparable<T>>{
             vertices.add(vertice);
         }
     }
+
+    public void recorreEnProfundidad(){
+
+        if(vertices.get(0)==null){
+            System.out.println(" ");
+        }else{
+            verticesStack.add(vertices.get(0));
+            while (!verticesStack.isEmpty()){
+                Vertice<T> aExplorar=verticesStack.pop();
+                if(!aExplorar.isVisitado()){
+                    System.out.print(aExplorar.getElemento().toString()+",");
+                    aExplorar.setVisitado(true);
+                }
+                List<Arista> aristas=aExplorar.getAristas();
+                for(Arista a: aristas){
+                    if(!a.getVertice1().isVisitado()){
+                        verticesStack.add(a.getVertice1());
+                    }
+                    if(!a.getVertice2().isVisitado()){
+                        verticesStack.add(a.getVertice2());
+
+                    }
+                }
+            }
+            System.out.println("");
+            reiniciarVisitas();
+        }
+    }
+
+    public void recorreEnAnchura(){
+        if(vertices.get(0)==null){
+            System.out.println(" ");
+        }else{
+            verticesQueue.add(vertices.get(0));
+            while(!verticesQueue.isEmpty()){
+                Vertice<T> aExplorar= verticesQueue.poll();
+                if(!aExplorar.isVisitado()){
+                    System.out.print(aExplorar.getElemento().toString()+",");
+                    aExplorar.setVisitado(true);
+                }
+                List<Arista> aristas= aExplorar.getAristas();
+                for(Arista a: aristas){
+                    if(!a.getVertice1().isVisitado()){
+                        verticesQueue.add(a.getVertice1());
+                    }
+                    if(!a.getVertice2().isVisitado()){
+
+                        verticesQueue.add(a.getVertice2());
+                    }
+                }
+            }
+            System.out.println("");
+            reiniciarVisitas();
+        }
+
+    }
+
+    public void reiniciarVisitas(){
+        for(Vertice v: vertices){
+            v.setVisitado(false);
+        }
+    }
+
 
     public void agregarArista(T elemento1, T elemento2){
         boolean encontrada=false;
