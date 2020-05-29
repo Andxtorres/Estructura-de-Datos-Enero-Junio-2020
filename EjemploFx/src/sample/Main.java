@@ -27,8 +27,12 @@ public class Main extends Application {
         TextField textField = new TextField();
         Label label= new Label("Ingresa un número");
         Button button = new Button("Agregar");
+        ListaDeNodos ldn=new ListaDeNodos(nodoList,gp);
 
         button.setOnAction(e ->{
+            Nodo<String> nodo= new Nodo<>(textField.getText());
+            ldn.agregarNodo(new NodoUI<>(50,50,nodo));
+            /*
             if(nodoList.size()==0){
                 Nodo<String> nodo= new Nodo<>(textField.getText());
                 NodoUI<String> nodoUi=new NodoUI<>(50,50,nodo);
@@ -41,7 +45,7 @@ public class Main extends Application {
                 gp.getChildren().add(nodoUi);
                 Arista a= new Arista(nodoList.get(0),nodoUi);
                 nodoUi.animate(gp.getWidth()/2-50,0,a,gp);
-            }
+            }*/
 
         });
 

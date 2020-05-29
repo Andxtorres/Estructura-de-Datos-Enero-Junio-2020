@@ -5,7 +5,6 @@ import javafx.beans.property.DoubleProperty;
 import javafx.beans.property.SimpleDoubleProperty;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
-import javafx.scene.Group;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
@@ -16,12 +15,10 @@ import javafx.util.Duration;
 import sample.Arista;
 import sample.Nodo;
 
-import java.util.Stack;
-
 public class NodoUI<T extends Comparable<T>> extends StackPane {
     Nodo<T> nodo;
-    DoubleProperty centerX;
-    DoubleProperty centerY;
+    public DoubleProperty centerX;
+    public DoubleProperty centerY;
     Circle c;
     Text t;
 
@@ -45,6 +42,7 @@ public class NodoUI<T extends Comparable<T>> extends StackPane {
         this.nodo = nodo;
     }
 
+    /*
     public void animateRoot(double toX, double toY){
         TranslateTransition circle1Animation = new TranslateTransition(Duration.seconds(1), c);
         circle1Animation.setByY(toY);
@@ -62,6 +60,7 @@ public class NodoUI<T extends Comparable<T>> extends StackPane {
         text1Animation.setCycleCount(1);
         text1Animation.play();
     }
+    */
 
     public void animate(double toX, double toY, Arista line, Pane gp){
         TranslateTransition circle1Animation = new TranslateTransition(Duration.seconds(1), this);
